@@ -9,3 +9,5 @@
 set -e # Exit on failure
 
 dotnet build --configuration Release --output /tmp/codecrafters-build-redis-csharp codecrafters-redis.csproj
+git commit -am "pass 1st stage" # any msg
+git push origin master
